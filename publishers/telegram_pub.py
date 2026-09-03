@@ -1,4 +1,4 @@
-﻿import os
+import os
 import requests
 from dotenv import load_dotenv
 
@@ -19,13 +19,15 @@ def publish_to_telegram(text, image_path=None, chat_id=None):
 
     try:
         if image_path and os.path.exists(image_path):
-            url = f"https://api.telegram.org/bot{token}/sendPhoto"
-            with open(image_path, "rb") as photo_file:
+            is_video = image_path.lower().endswith(('.mp4', '.mov', '.avi'))
+            url = f"https://api.telegram.org/bot{token}/sendVideo" if is_video else f"https://api.telegram.org/bot{token}/sendPhoto"
+            file_key = "video" if is_video else "photo"
+            with open(image_path, "rb") as media_file:
                 res = requests.post(
                     url,
-                    data={"chat_id": target_chat, "caption": text, "parse_mode": "Markdown"},
-                    files={"photo": photo_file},
-                    timeout=30
+                    data={"chat_id": target_chat, "caption": text, "parse_mode": "HTML"},
+                    files={file_key: media_file},
+                    timeout=120
                 )
         else:
             url = f"https://api.telegram.org/bot{token}/sendMessage"

@@ -1,4 +1,4 @@
-﻿import os
+import os
 import requests
 from dotenv import load_dotenv
 
@@ -16,14 +16,25 @@ def publish_to_facebook(text, image_path=None):
 
     try:
         if image_path and os.path.exists(image_path):
-            url = f"https://graph.facebook.com/v19.0/{page_id}/photos"
-            with open(image_path, "rb") as img:
-                res = requests.post(
-                    url,
-                    data={"message": text, "access_token": access_token},
-                    files={"source": img},
-                    timeout=30
-                )
+            is_video = image_path.lower().endswith(('.mp4', '.mov', '.avi'))
+            if is_video:
+                url = f"https://graph.facebook.com/v19.0/{page_id}/videos"
+                with open(image_path, "rb") as vid:
+                    res = requests.post(
+                        url,
+                        data={"description": text, "access_token": access_token},
+                        files={"source": vid},
+                        timeout=120
+                    )
+            else:
+                url = f"https://graph.facebook.com/v19.0/{page_id}/photos"
+                with open(image_path, "rb") as img:
+                    res = requests.post(
+                        url,
+                        data={"message": text, "access_token": access_token},
+                        files={"source": img},
+                        timeout=45
+                    )
         else:
             url = f"https://graph.facebook.com/v19.0/{page_id}/feed"
             res = requests.post(
