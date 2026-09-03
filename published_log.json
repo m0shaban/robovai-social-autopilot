@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "timestamp": "2026-09-04 02:38:06",
+      "asset_filename": "Business_owner_checks_POS_terminal_202609040232_2.mp4",
+      "asset_type": "video",
+      "pillar_id": "business_control",
+      "pillar_title": "التحكم الكامل وتنبيهات تليجرام وأنت خارج المحل",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "38239941098983504"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 5
+        }
+      }
+    }
+  ],
+  "last_run": "2026-09-04 02:38:06",
+  "total_published": 1
+}

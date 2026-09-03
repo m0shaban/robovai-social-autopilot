@@ -121,10 +121,11 @@ st.markdown("<div class=\"main-title\">🚀 RoboVAI Social Media Autopilot</div>
 st.markdown("<div class=\"sub-title\">المنظومة الذكية لإدارة ونشر المحتوى التسويقي التلقائي لكاشير RoboVAI PRO POS v6.0</div>", unsafe_allow_html=True)
 
 # Tabs
-tab1, tab2, tab3, tab4 = st.tabs([
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "✨ توليد ونشر محتوى جديد",
     "📅 جدول الحملات الجاهزة",
     "🔗 مركز ربط الحسابات بنقرة واحدة",
+    "🤖 المحرك الذاتي (Autonomous Engine)",
     "📖 دليل الإعداد السريع"
 ])
 
@@ -415,11 +416,72 @@ with tab3:
 
     st.markdown("</div>", unsafe_allow_html=True)
 
-# ================= TAB 4: FREE SETUP GUIDE =================
+# ================= TAB 4: AUTONOMOUS ENGINE =================
 with tab4:
+    st.markdown("### 🤖 غرفة التحكم في المحرك الذاتي (100% Autonomous)")
+    st.markdown("""
+    يقوم المحرك الذاتي باختيار المحتوى المرئي، ومطابقته بأعمدة الاستراتيجية التسويقية الأربعة، وصياغة الكوبي الإعلاني عبر **Groq LPU** ونشره تلقائياً على فيسبوك وتليجرام بدون أي تدخل بشري!
+    """)
+    
+    from autonomous_engine import load_published_log, run_autonomous_post, CREATIVES_IMG_DIR, CREATIVES_VID_DIR
+    log_data = load_published_log()
+    
+    img_count = len([f for f in os.listdir(CREATIVES_IMG_DIR) if f.lower().endswith(('.jpeg', '.jpg', '.png'))]) if os.path.exists(CREATIVES_IMG_DIR) else 0
+    vid_count = len([f for f in os.listdir(CREATIVES_VID_DIR) if f.lower().endswith('.mp4')]) if os.path.exists(CREATIVES_VID_DIR) else 0
+    
+    col_stat1, col_stat2, col_stat3, col_stat4 = st.columns(4)
+    with col_stat1:
+        st.metric("إجمالي المنشورات الذاتية", log_data.get("total_published", 0))
+    with col_stat2:
+        st.metric("مكتبة الصور المتوفرة", f"{img_count} صورة")
+    with col_stat3:
+        st.metric("مكتبة الفيديوهات المتوفرة", f"{vid_count} فيديو")
+    with col_stat4:
+        last_t = log_data.get("last_run", "لم يتم بعد")
+        st.metric("آخر دورة نشر", last_t.split()[0] if " " in str(last_t) else str(last_t))
+        
+    st.markdown("---")
+    
+    col_run, col_sched = st.columns([1.2, 1])
+    with col_run:
+        st.markdown("#### ⚡ تشغيل فوري بنقرة واحدة")
+        st.markdown("يمكنك إطلاق دورة نشر ذاتية حية الآن لاختبار المحرك على فيسبوك وتليجرام:")
+        if st.button("🚀 نفّذ دورة نشر ذاتية الآن فوراً (Run Autonomous Post)", type="primary", use_container_width=True):
+            with st.spinner("🤖 المحرك الذاتي يحلل الأصول، يختار الزاوية التسويقية، ويصيغ المنشور عبر Groq..."):
+                rec = run_autonomous_post()
+                st.balloons()
+                st.success(f"🎉 تم النشر الذاتي بنجاح! المنشور رقم #{rec['id']}")
+                st.write(f"**المحور التسويقي:** {rec['pillar_title']}")
+                st.write(f"**الملف المستخدم:** `{rec['asset_filename']}` ({rec['asset_type']})")
+                st.json(rec["results"])
+                
+    with col_sched:
+        st.markdown("#### ⏰ مواعيد الجدولة الأوتوماتيكية السحابية")
+        st.markdown("""
+        - 🟢 **سيرفر الجدولة:** GitHub Actions Cloud Runner
+        - 🕒 **المواعيد اليومية:** 
+          - **1:00 ظهراً** بتوقيت القاهرة / مكة المكرمة (ذروة منتصف اليوم)
+          - **7:00 مساءً** بتوقيت القاهرة / مكة المكرمة (ذروة المساء والويك إند)
+        - 🎯 **الاستراتيجية:** تدوير مستمر بين الفيديوهات والصور بدون تكرار
+        """)
+        
+    st.markdown("---")
+    st.markdown("#### 📋 سجل المنشورات الذاتية الأخيرة (Publishing History)")
+    posts = log_data.get("posts", [])
+    if posts:
+        for p in reversed(posts[-5:]):
+            st.markdown(f"""
+            - **#{p['id']}** | 🕒 `{p['timestamp']}` | 🏷️ **{p.get('pillar_title', '')}** | 📁 `{p.get('asset_filename', '')}` ({p.get('asset_type', '')})
+            """)
+    else:
+        st.info("لا توجد منشورات مسجلة بعد. اضغط على الزر أعلاه لتنفيذ أول دورة نشر ذاتية!")
+
+# ================= TAB 5: FREE SETUP GUIDE =================
+with tab5:
     st.markdown("### 🛠️ نظرة عامة على الخدمات المجانية")
     st.markdown("""
     - **محرك Groq LPU الذكي**: يعمل الآن بـ 3 مفاتيح متبادلة ومفعلة لنشر فوري في أقل من ثانية.
     - **بوت تليجرام**: متصل ويعمل حياً كغرفة تحكم ومستعد لاستقبال صورك من الهاتف.
     - **فيسبوك وإنستجرام وتويتر**: استخدم تبويب 'مركز ربط الحسابات' للربط السريع بنقرة واحدة!
     """)
+

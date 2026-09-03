@@ -1,0 +1,49 @@
+﻿name: RoboVAI Autonomous Marketing Publisher
+
+on:
+  schedule:
+    # Runs at 10:00 UTC (1:00 PM Cairo/Riyadh) and 16:00 UTC (7:00 PM Cairo/Riyadh) every day
+    - cron: '0 10,16 * * *'
+  workflow_dispatch: # Allows 1-click manual trigger from GitHub web UI
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Autonomous Marketing Engine
+        env:
+          GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
+          GROQ_API_KEY_3: ${{ secrets.GROQ_API_KEY_3 }}
+          GROQ_API_KEY_4: ${{ secrets.GROQ_API_KEY_4 }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+          INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
+        run: |
+          python autonomous_engine.py
+
+      - name: Commit and Push Publishing Log
+        run: |
+          git config --global user.name "RoboVAI Autonomous Agent"
+          git config --global user.email "bot@robovai.tech"
+          git add published_log.json
+          git commit -m "chore(autopilot): update published log [skip ci]" || echo "No changes to commit"
+          git push origin main || echo "Push failed or nothing to push"
