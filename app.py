@@ -1,4 +1,4 @@
-﻿import os
+import os
 import requests
 import json
 import streamlit as st
@@ -7,6 +7,15 @@ from dotenv import load_dotenv
 
 # Load env variables
 load_dotenv()
+
+# Bridge Streamlit Community Cloud Secrets to os.environ
+try:
+    if hasattr(st, "secrets"):
+        for sec_key, sec_val in st.secrets.items():
+            if isinstance(sec_val, str):
+                os.environ[sec_key] = sec_val
+except Exception:
+    pass
 
 from env_manager import update_env_var, get_env_var
 from ai_generator import generate_social_content, GROQ_KEYS
