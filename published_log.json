@@ -17,8 +17,93 @@
           "message_id": 5
         }
       }
+    },
+    {
+      "id": 2,
+      "timestamp": "2026-09-04 03:00:24",
+      "asset_filename": "Grocery_owner_using_tablet_with_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "smart_inventory",
+      "pillar_title": "جرد المخازن الذكي وتطبيق الموبايل WMS بدون أجهزة غالية",
+      "results": {
+        "facebook": {
+          "success": false,
+          "error": "Error validating access token: Session has expired on Thursday, 03-Sep-26 17:00:00 PDT. The current time is Thursday, 03-Sep-26 17:00:23 PDT."
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 6
+        },
+        "instagram": {
+          "success": false,
+          "error": "Error validating access token: Session has expired on Thursday, 03-Sep-26 17:00:00 PDT. The current time is Thursday, 03-Sep-26 17:00:24 PDT."
+        }
+      }
+    },
+    {
+      "id": 3,
+      "timestamp": "2026-09-04 03:03:43",
+      "asset_filename": "POS_terminal_displaying_financia…_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "speed_and_sales",
+      "pillar_title": "سرعة خدمة الزبائن وإنهاء الفاتورة في ثانيتين بدون طوابير",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122106006171455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 7
+        },
+        "instagram": {
+          "success": false,
+          "error": "Only photo or video can be accepted as media type."
+        }
+      }
+    },
+    {
+      "id": 4,
+      "timestamp": "2026-09-04 03:04:47",
+      "asset_filename": "Cashier_handling_restaurant_orders_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "pain_killer",
+      "pillar_title": "حماية الخزينة ومكافحة سرقة الكاشير وعجز الدرج",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122106006435455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 8
+        },
+        "instagram": {
+          "success": false,
+          "error": "Media ID is not available"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "timestamp": "2026-09-04 03:05:21",
+      "asset_filename": "Manager_gesturing_at_POS_terminal_202609040232.mp4",
+      "asset_type": "video",
+      "pillar_id": "pain_killer",
+      "pillar_title": "حماية الخزينة ومكافحة سرقة الكاشير وعجز الدرج",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "2269986000452538"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 9
+        },
+        "instagram": null
+      }
     }
   ],
-  "last_run": "2026-09-04 02:38:06",
-  "total_published": 1
+  "last_run": "2026-09-04 03:05:21",
+  "total_published": 5
 }

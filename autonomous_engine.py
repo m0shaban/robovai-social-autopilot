@@ -18,11 +18,15 @@ from campaign_strategy import CONTENT_PILLARS
 from ai_generator import generate_social_content
 from publishers.meta_pub import publish_to_facebook, publish_to_instagram
 
+import urllib.parse
+
 def get_public_asset_url(asset_path):
     if not asset_path:
         return None
     rel_path = os.path.relpath(asset_path, BASE_DIR).replace("\\", "/")
-    return f"https://raw.githubusercontent.com/m0shaban/robovai-social-autopilot/main/{rel_path}"
+    parts = [urllib.parse.quote(part) for part in rel_path.split("/")]
+    encoded_path = "/".join(parts)
+    return f"https://raw.githubusercontent.com/m0shaban/robovai-social-autopilot/main/{encoded_path}"
 from publishers.telegram_pub import publish_to_telegram
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

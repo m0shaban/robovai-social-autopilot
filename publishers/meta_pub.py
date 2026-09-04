@@ -76,6 +76,10 @@ def publish_to_instagram(caption, image_url):
 
         creation_id = data1["id"]
 
+        # Wait 4 seconds for Instagram server to fetch and process image
+        import time
+        time.sleep(4)
+
         # Step 2: Publish media container
         step2_url = f"https://graph.facebook.com/v19.0/{ig_user_id}/media_publish"
         res2 = requests.post(
