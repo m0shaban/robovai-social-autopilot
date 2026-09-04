@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 RoboVAI PRO POS v6.0 - Master Marketing Pillars & Strategy Map
 Governs the AI Autonomous Publisher's editorial cadence.
@@ -56,5 +56,19 @@ CONTENT_PILLARS = [
         ],
         "core_value": "بوت تليجرام أوتوماتيكي مدمج، إشعارات لحظية، ولوحة مراقبة متصفح داخلية بدون إنترنت.",
         "preferred_assets": ["Telegram", "notification", "Shop_owner_checking", "analytics", "dashboard"]
+    },
+    {
+        "id": "smart_investment",
+        "title": "التمليك الدائم والاستثمار الذكي مقابل جشع الاشتراكات الشهرية",
+        "weight": 0.20,
+        "hooks": [
+            "احسبها صح: بتدفع كام كل سنة في اشتراكات كاشير سحابي ممكن يقفل محلك لو النت فصل؟ 💰",
+            "ليه تفضل تدفع إيجار شهري لبرنامج كاشير لما ممكن تمتلك نسختك وقاعدة بياناتك للأبد؟",
+            "معادلة الأمان المالي لأصحاب المحلات: تمليك دائم بـ 19,999 ج.م وسنة دعم مجاني كاملة! 👑",
+            "مش متأكد ومتردد؟ جرب باقة الشهر بـ 799 ج.م أو باقة 6 شهور وشوف الفرق بنفسك بمحلك."
+        ],
+        "core_value": "ترخيص تمليك دائم مدى الحياة بدون أي اشتراك شهري إجباري، أو باقة سنوية مرنة شاملة كل التحديثات والدعم.",
+        "preferred_assets": ["financial", "cash", "coins", "growth", "handshake", "businessman"]
     }
 ]
+
