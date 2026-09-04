@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 RoboVAI Autonomous Marketing Publisher Engine
 Operates 100% independently without human intervention.
@@ -16,7 +16,13 @@ load_dotenv()
 
 from campaign_strategy import CONTENT_PILLARS
 from ai_generator import generate_social_content
-from publishers.meta_pub import publish_to_facebook
+from publishers.meta_pub import publish_to_facebook, publish_to_instagram
+
+def get_public_asset_url(asset_path):
+    if not asset_path:
+        return None
+    rel_path = os.path.relpath(asset_path, BASE_DIR).replace("\\", "/")
+    return f"https://raw.githubusercontent.com/m0shaban/robovai-social-autopilot/main/{rel_path}"
 from publishers.telegram_pub import publish_to_telegram
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -119,8 +125,9 @@ def run_autonomous_post():
     posts = generate_social_content(topic, custom_image_description=asset_desc)
     fb_text = posts.get("facebook")
     tg_text = posts.get("telegram")
+    ig_text = posts.get("instagram")
     
-    results = {"facebook": None, "telegram": None}
+    results = {"facebook": None, "telegram": None, "instagram": None}
     
     # 2. Publish to Facebook
     if fb_text:
@@ -129,7 +136,15 @@ def run_autonomous_post():
         results["facebook"] = fb_res
         print("Facebook result:", fb_res)
         
-    # 3. Publish to Telegram
+    # 3. Publish to Instagram (via public CDN URL)
+    if ig_text and asset_path and not asset_path.lower().endswith('.mp4'):
+        public_url = get_public_asset_url(asset_path)
+        print(f"Publishing to Instagram via URL: {public_url}...")
+        ig_res = publish_to_instagram(ig_text, public_url)
+        results["instagram"] = ig_res
+        print("Instagram result:", ig_res)
+        
+    # 4. Publish to Telegram
     if tg_text:
         print("Publishing to Telegram Channel...")
         tg_res = publish_to_telegram(tg_text, asset_path)
