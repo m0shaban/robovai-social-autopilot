@@ -168,8 +168,27 @@
           "ig_media_id": "18153256030524789"
         }
       }
+    },
+    {
+      "id": 9,
+      "timestamp": "2026-09-05 13:05:39",
+      "asset_filename": "Shop_owner_receiving_sales_report_202609040232.mp4",
+      "asset_type": "video",
+      "pillar_id": "speed_and_sales",
+      "pillar_title": "سرعة خدمة الزبائن وإنهاء الفاتورة في ثانيتين بدون طوابير",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "2017402598939788"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 14
+        },
+        "instagram": null
+      }
     }
   ],
-  "last_run": "2026-09-04 18:39:05",
-  "total_published": 8
+  "last_run": "2026-09-05 13:05:39",
+  "total_published": 9
 }
