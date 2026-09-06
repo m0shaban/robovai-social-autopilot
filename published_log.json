@@ -231,8 +231,30 @@
           "ig_media_id": "18123001339665391"
         }
       }
+    },
+    {
+      "id": 12,
+      "timestamp": "2026-09-06 17:50:38",
+      "asset_filename": "Store_owner_reviewing_expenses_l…_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "smart_inventory",
+      "pillar_title": "جرد المخازن الذكي وتطبيق الموبايل WMS بدون أجهزة غالية",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122108212707455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 17
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18093678245644402"
+        }
+      }
     }
   ],
-  "last_run": "2026-09-06 13:15:31",
-  "total_published": 11
+  "last_run": "2026-09-06 17:50:38",
+  "total_published": 12
 }
