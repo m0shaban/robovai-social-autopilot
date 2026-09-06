@@ -209,8 +209,30 @@
           "ig_media_id": "18092434502141908"
         }
       }
+    },
+    {
+      "id": 11,
+      "timestamp": "2026-09-06 13:15:31",
+      "asset_filename": "Owner_showing_dress_to_customer_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "smart_investment",
+      "pillar_title": "التمليك الدائم والاستثمار الذكي مقابل جشع الاشتراكات الشهرية",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122108142615455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 16
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18123001339665391"
+        }
+      }
     }
   ],
-  "last_run": "2026-09-05 17:46:35",
-  "total_published": 10
+  "last_run": "2026-09-06 13:15:31",
+  "total_published": 11
 }
