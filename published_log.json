@@ -272,8 +272,30 @@
         },
         "instagram": null
       }
+    },
+    {
+      "id": 14,
+      "timestamp": "2026-09-07 19:28:12",
+      "asset_filename": "POS_terminal_glowing_in_cafe_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "pain_killer",
+      "pillar_title": "حماية الخزينة ومكافحة سرقة الكاشير وعجز الدرج",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122108767401455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 19
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18104432630608081"
+        }
+      }
     }
   ],
-  "last_run": "2026-09-07 15:22:00",
-  "total_published": 13
+  "last_run": "2026-09-07 19:28:12",
+  "total_published": 14
 }
