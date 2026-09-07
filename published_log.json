@@ -253,8 +253,27 @@
           "ig_media_id": "18093678245644402"
         }
       }
+    },
+    {
+      "id": 13,
+      "timestamp": "2026-09-07 15:22:00",
+      "asset_filename": "Manager_gesturing_at_POS_terminal_202609040232_2.mp4",
+      "asset_type": "video",
+      "pillar_id": "pain_killer",
+      "pillar_title": "حماية الخزينة ومكافحة سرقة الكاشير وعجز الدرج",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "925814160121356"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 18
+        },
+        "instagram": null
+      }
     }
   ],
-  "last_run": "2026-09-06 17:50:38",
-  "total_published": 12
+  "last_run": "2026-09-07 15:22:00",
+  "total_published": 13
 }
