@@ -294,8 +294,30 @@
           "ig_media_id": "18104432630608081"
         }
       }
+    },
+    {
+      "id": 15,
+      "timestamp": "2026-09-08 13:57:50",
+      "asset_filename": "module-5.png_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "pain_killer",
+      "pillar_title": "حماية الخزينة ومكافحة سرقة الكاشير وعجز الدرج",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122109153111455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 20
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "17877022842548162"
+        }
+      }
     }
   ],
-  "last_run": "2026-09-07 19:28:12",
-  "total_published": 14
+  "last_run": "2026-09-08 13:57:50",
+  "total_published": 15
 }
