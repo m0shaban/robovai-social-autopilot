@@ -549,8 +549,30 @@
           "ig_media_id": "18115257332093577"
         }
       }
+    },
+    {
+      "id": 27,
+      "timestamp": "2026-09-14 16:02:24",
+      "asset_filename": "Cashier_operating_POS_terminal_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "pain_killer",
+      "pillar_title": "حماية الخزينة ومكافحة سرقة الكاشير وعجز الدرج",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122111359719455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 31
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18089761163664186"
+        }
+      }
     }
   ],
-  "last_run": "2026-09-13 18:23:59",
-  "total_published": 26
+  "last_run": "2026-09-14 16:02:24",
+  "total_published": 27
 }
