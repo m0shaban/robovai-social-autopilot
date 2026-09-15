@@ -571,8 +571,30 @@
           "ig_media_id": "18089761163664186"
         }
       }
+    },
+    {
+      "id": 28,
+      "timestamp": "2026-09-15 14:32:28",
+      "asset_filename": "Busy_cafe_exterior_at_dusk_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "speed_and_sales",
+      "pillar_title": "سرعة خدمة الزبائن وإنهاء الفاتورة في ثانيتين بدون طوابير",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122111718711455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 32
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18115809580966594"
+        }
+      }
     }
   ],
-  "last_run": "2026-09-14 16:02:24",
-  "total_published": 27
+  "last_run": "2026-09-15 14:32:28",
+  "total_published": 28
 }
