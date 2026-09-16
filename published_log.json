@@ -634,8 +634,30 @@
           "ig_media_id": "18459824158136573"
         }
       }
+    },
+    {
+      "id": 31,
+      "timestamp": "2026-09-16 19:10:36",
+      "asset_filename": "Invoice_system_ad_on_laptop_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "pain_killer",
+      "pillar_title": "حماية الخزينة ومكافحة سرقة الكاشير وعجز الدرج",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122112111423455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 35
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "17935017843384533"
+        }
+      }
     }
   ],
-  "last_run": "2026-09-16 14:26:03",
-  "total_published": 30
+  "last_run": "2026-09-16 19:10:36",
+  "total_published": 31
 }
