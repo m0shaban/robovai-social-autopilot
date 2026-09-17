@@ -678,8 +678,27 @@
           "ig_media_id": "17904342315483468"
         }
       }
+    },
+    {
+      "id": 33,
+      "timestamp": "2026-09-17 19:22:39",
+      "asset_filename": "Camera_zooms_on_POS_terminal_202609040232.mp4",
+      "asset_type": "video",
+      "pillar_id": "pain_killer",
+      "pillar_title": "حماية الخزينة ومكافحة سرقة الكاشير وعجز الدرج",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "1393989406208864"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 37
+        },
+        "instagram": null
+      }
     }
   ],
-  "last_run": "2026-09-17 14:31:33",
-  "total_published": 32
+  "last_run": "2026-09-17 19:22:39",
+  "total_published": 33
 }
