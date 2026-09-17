@@ -656,8 +656,30 @@
           "ig_media_id": "17935017843384533"
         }
       }
+    },
+    {
+      "id": 32,
+      "timestamp": "2026-09-17 14:31:33",
+      "asset_filename": "Partners_viewing_retail_growth_c…_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "smart_investment",
+      "pillar_title": "التمليك الدائم والاستثمار الذكي مقابل جشع الاشتراكات الشهرية",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122112418641455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 36
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "17904342315483468"
+        }
+      }
     }
   ],
-  "last_run": "2026-09-16 19:10:36",
-  "total_published": 31
+  "last_run": "2026-09-17 14:31:33",
+  "total_published": 32
 }
