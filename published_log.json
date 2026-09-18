@@ -719,8 +719,30 @@
           "ig_media_id": "17917962855241458"
         }
       }
+    },
+    {
+      "id": 35,
+      "timestamp": "2026-09-18 18:43:07",
+      "asset_filename": "QR_set.png_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "business_control",
+      "pillar_title": "التحكم الكامل وتنبيهات تليجرام وأنت خارج المحل",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122112873855455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 39
+        },
+        "instagram": {
+          "success": false,
+          "error": "The aspect ratio is not supported."
+        }
+      }
     }
   ],
-  "last_run": "2026-09-18 13:57:06",
-  "total_published": 34
+  "last_run": "2026-09-18 18:43:07",
+  "total_published": 35
 }
