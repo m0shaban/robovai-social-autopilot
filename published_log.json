@@ -763,8 +763,27 @@
           "ig_media_id": "18039826838836600"
         }
       }
+    },
+    {
+      "id": 37,
+      "timestamp": "2026-09-19 18:16:02",
+      "asset_filename": "RoboVAI_PRO_social_media_ad_202609040232_2.mp4",
+      "asset_type": "video",
+      "pillar_id": "smart_inventory",
+      "pillar_title": "جرد المخازن الذكي وتطبيق الموبايل WMS بدون أجهزة غالية",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "1461141799252915"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 41
+        },
+        "instagram": null
+      }
     }
   ],
-  "last_run": "2026-09-19 13:32:05",
-  "total_published": 36
+  "last_run": "2026-09-19 18:16:02",
+  "total_published": 37
 }
