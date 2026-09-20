@@ -782,8 +782,30 @@
         },
         "instagram": null
       }
+    },
+    {
+      "id": 38,
+      "timestamp": "2026-09-20 13:47:32",
+      "asset_filename": "RoboVAI_mobile_app_showcase_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "speed_and_sales",
+      "pillar_title": "سرعة خدمة الزبائن وإنهاء الفاتورة في ثانيتين بدون طوابير",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122113733367455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 42
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "17949927471052409"
+        }
+      }
     }
   ],
-  "last_run": "2026-09-19 18:16:02",
-  "total_published": 37
+  "last_run": "2026-09-20 13:47:32",
+  "total_published": 38
 }
