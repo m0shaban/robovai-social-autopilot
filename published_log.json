@@ -867,8 +867,30 @@
         },
         "instagram": null
       }
+    },
+    {
+      "id": 42,
+      "timestamp": "2026-09-22 19:20:30",
+      "asset_filename": "Saudi_financial_control_ad_cash_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "pain_killer",
+      "pillar_title": "حماية الخزينة ومكافحة سرقة الكاشير وعجز الدرج",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122114652831455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 46
+        },
+        "instagram": {
+          "success": false,
+          "error": "Only photo or video can be accepted as media type."
+        }
+      }
     }
   ],
-  "last_run": "2026-09-22 14:14:44",
-  "total_published": 41
+  "last_run": "2026-09-22 19:20:30",
+  "total_published": 42
 }
