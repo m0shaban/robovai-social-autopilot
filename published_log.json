@@ -911,8 +911,30 @@
           "ig_media_id": "18099796358039868"
         }
       }
+    },
+    {
+      "id": 44,
+      "timestamp": "2026-09-23 19:17:39",
+      "asset_filename": "RoboVAI_POS_terminal_rotating_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "pain_killer",
+      "pillar_title": "حماية الخزينة ومكافحة سرقة الكاشير وعجز الدرج",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122115098337455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 48
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18149608246528660"
+        }
+      }
     }
   ],
-  "last_run": "2026-09-23 14:30:50",
-  "total_published": 43
+  "last_run": "2026-09-23 19:17:39",
+  "total_published": 44
 }
