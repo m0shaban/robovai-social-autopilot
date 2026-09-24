@@ -952,8 +952,30 @@
         },
         "instagram": null
       }
+    },
+    {
+      "id": 46,
+      "timestamp": "2026-09-24 19:35:07",
+      "asset_filename": "01-dashboard.png_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "business_control",
+      "pillar_title": "التحكم الكامل وتنبيهات تليجرام وأنت خارج المحل",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122115588243455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 50
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18075080855448366"
+        }
+      }
     }
   ],
-  "last_run": "2026-09-24 14:30:05",
-  "total_published": 45
+  "last_run": "2026-09-24 19:35:07",
+  "total_published": 46
 }
