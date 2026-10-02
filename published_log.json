@@ -1188,8 +1188,27 @@
           "ig_media_id": "17909524602306587"
         }
       }
+    },
+    {
+      "id": 57,
+      "timestamp": "2026-10-02 16:00:49",
+      "asset_filename": "RoboVAI_PRO_social_media_ad_202609040232.mp4",
+      "asset_type": "video",
+      "pillar_id": "speed_and_sales",
+      "pillar_title": "سرعة خدمة الزبائن وإنهاء الفاتورة في ثانيتين بدون طوابير",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "2917703295244218"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 61
+        },
+        "instagram": null
+      }
     }
   ],
-  "last_run": "2026-10-01 16:46:04",
-  "total_published": 56
+  "last_run": "2026-10-02 16:00:49",
+  "total_published": 57
 }
