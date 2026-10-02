@@ -1207,8 +1207,30 @@
         },
         "instagram": null
       }
+    },
+    {
+      "id": 58,
+      "timestamp": "2026-10-02 20:25:55",
+      "asset_filename": "Baristas_preparing_drinks_at_cof…_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "pain_killer",
+      "pillar_title": "حماية الخزينة ومكافحة سرقة الكاشير وعجز الدرج",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122118372525455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 62
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18021778031867285"
+        }
+      }
     }
   ],
-  "last_run": "2026-10-02 16:00:49",
-  "total_published": 57
+  "last_run": "2026-10-02 20:25:55",
+  "total_published": 58
 }
