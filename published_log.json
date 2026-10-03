@@ -1229,8 +1229,30 @@
           "ig_media_id": "18021778031867285"
         }
       }
+    },
+    {
+      "id": 59,
+      "timestamp": "2026-10-03 14:27:48",
+      "asset_filename": "Shop_owner_waving_and_dashboard_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "business_control",
+      "pillar_title": "التحكم الكامل وتنبيهات تليجرام وأنت خارج المحل",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122118582783455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 63
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18190153384404566"
+        }
+      }
     }
   ],
-  "last_run": "2026-10-02 20:25:55",
-  "total_published": 58
+  "last_run": "2026-10-03 14:27:48",
+  "total_published": 59
 }
