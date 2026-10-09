@@ -1399,8 +1399,30 @@
           "ig_media_id": "18124530142902219"
         }
       }
+    },
+    {
+      "id": 67,
+      "timestamp": "2026-10-09 16:40:55",
+      "asset_filename": "Offline_POS_system_working_adver…_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "pain_killer",
+      "pillar_title": "حماية الخزينة ومكافحة سرقة الكاشير وعجز الدرج",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122120264373455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 71
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18031796864676730"
+        }
+      }
     }
   ],
-  "last_run": "2026-10-08 17:02:54",
-  "total_published": 66
+  "last_run": "2026-10-09 16:40:55",
+  "total_published": 67
 }
