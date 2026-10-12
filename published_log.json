@@ -1506,8 +1506,30 @@
           "ig_media_id": "18056604344573960"
         }
       }
+    },
+    {
+      "id": 72,
+      "timestamp": "2026-10-12 19:28:58",
+      "asset_filename": "RoboVAI_lifetime_ownership_adver…_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "smart_investment",
+      "pillar_title": "التمليك الدائم والاستثمار الذكي مقابل جشع الاشتراكات الشهرية",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122121164175455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 76
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18126724693854790"
+        }
+      }
     }
   ],
-  "last_run": "2026-10-11 19:59:01",
-  "total_published": 71
+  "last_run": "2026-10-12 19:28:58",
+  "total_published": 72
 }
