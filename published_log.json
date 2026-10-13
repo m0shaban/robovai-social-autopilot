@@ -1528,8 +1528,27 @@
           "ig_media_id": "18126724693854790"
         }
       }
+    },
+    {
+      "id": 73,
+      "timestamp": "2026-10-13 17:12:40",
+      "asset_filename": "Dual-screen_POS_system_rotates_202609040232_2.mp4",
+      "asset_type": "video",
+      "pillar_id": "speed_and_sales",
+      "pillar_title": "سرعة خدمة الزبائن وإنهاء الفاتورة في ثانيتين بدون طوابير",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "1129292986164600"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 77
+        },
+        "instagram": null
+      }
     }
   ],
-  "last_run": "2026-10-12 19:28:58",
-  "total_published": 72
+  "last_run": "2026-10-13 17:12:40",
+  "total_published": 73
 }
