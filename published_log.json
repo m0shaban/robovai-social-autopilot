@@ -1547,8 +1547,30 @@
         },
         "instagram": null
       }
+    },
+    {
+      "id": 74,
+      "timestamp": "2026-10-14 14:46:44",
+      "asset_filename": "Shop_owner_reviewing_financial_r…_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "pain_killer",
+      "pillar_title": "حماية الخزينة ومكافحة سرقة الكاشير وعجز الدرج",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122121634581455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 78
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18099572318556595"
+        }
+      }
     }
   ],
-  "last_run": "2026-10-13 17:12:40",
-  "total_published": 73
+  "last_run": "2026-10-14 14:46:44",
+  "total_published": 74
 }
