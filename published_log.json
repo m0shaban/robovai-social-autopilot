@@ -1613,8 +1613,27 @@
           "ig_media_id": "18094030787444026"
         }
       }
+    },
+    {
+      "id": 77,
+      "timestamp": "2026-10-15 19:32:18",
+      "asset_filename": "RoboVAI_terminal_in_busy_restaurant_202609040232_2.mp4",
+      "asset_type": "video",
+      "pillar_id": "speed_and_sales",
+      "pillar_title": "سرعة خدمة الزبائن وإنهاء الفاتورة في ثانيتين بدون طوابير",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "1417012460548715"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 81
+        },
+        "instagram": null
+      }
     }
   ],
-  "last_run": "2026-10-15 14:31:32",
-  "total_published": 76
+  "last_run": "2026-10-15 19:32:18",
+  "total_published": 77
 }
