@@ -1761,8 +1761,30 @@
           "ig_media_id": "18117249301810988"
         }
       }
+    },
+    {
+      "id": 84,
+      "timestamp": "2026-10-19 16:41:08",
+      "asset_filename": "Tablet_showing_restaurant_POS_menu_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "speed_and_sales",
+      "pillar_title": "سرعة خدمة الزبائن وإنهاء الفاتورة في ثانيتين بدون طوابير",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122122865691455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 88
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18115351499328175"
+        }
+      }
     }
   ],
-  "last_run": "2026-10-18 18:20:12",
-  "total_published": 83
+  "last_run": "2026-10-19 16:41:08",
+  "total_published": 84
 }
