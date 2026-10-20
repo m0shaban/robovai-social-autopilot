@@ -1783,8 +1783,27 @@
           "ig_media_id": "18115351499328175"
         }
       }
+    },
+    {
+      "id": 85,
+      "timestamp": "2026-10-20 14:33:20",
+      "asset_filename": "Business_owner_checks_POS_terminal_202609040232_2.mp4",
+      "asset_type": "video",
+      "pillar_id": "pain_killer",
+      "pillar_title": "حماية الخزينة ومكافحة سرقة الكاشير وعجز الدرج",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "2084122752470545"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 89
+        },
+        "instagram": null
+      }
     }
   ],
-  "last_run": "2026-10-19 16:41:08",
-  "total_published": 84
+  "last_run": "2026-10-20 14:33:20",
+  "total_published": 85
 }
