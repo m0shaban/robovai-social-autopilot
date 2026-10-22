@@ -1887,8 +1887,30 @@
         },
         "instagram": null
       }
+    },
+    {
+      "id": 90,
+      "timestamp": "2026-10-22 19:36:01",
+      "asset_filename": "Pharmacy_management_system_adver…_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "business_control",
+      "pillar_title": "التحكم الكامل وتنبيهات تليجرام وأنت خارج المحل",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122123589105455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 94
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18108858977621187"
+        }
+      }
     }
   ],
-  "last_run": "2026-10-22 14:44:37",
-  "total_published": 89
+  "last_run": "2026-10-22 19:36:01",
+  "total_published": 90
 }
