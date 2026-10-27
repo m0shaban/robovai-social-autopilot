@@ -2057,8 +2057,30 @@
         },
         "instagram": null
       }
+    },
+    {
+      "id": 98,
+      "timestamp": "2026-10-27 15:35:50",
+      "asset_filename": "Barista_serving_customer_at_cafe_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "business_control",
+      "pillar_title": "التحكم الكامل وتنبيهات تليجرام وأنت خارج المحل",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122124647943455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 102
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18085447067339487"
+        }
+      }
     }
   ],
-  "last_run": "2026-10-26 16:20:58",
-  "total_published": 97
+  "last_run": "2026-10-27 15:35:50",
+  "total_published": 98
 }
