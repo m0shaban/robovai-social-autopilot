@@ -2227,8 +2227,30 @@
         },
         "instagram": null
       }
+    },
+    {
+      "id": 106,
+      "timestamp": "2026-11-02 19:52:35",
+      "asset_filename": "Shop_owner_using_tablet_interface_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "smart_investment",
+      "pillar_title": "التمليك الدائم والاستثمار الذكي مقابل جشع الاشتراكات الشهرية",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122125933353455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 109
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18014534126972750"
+        }
+      }
     }
   ],
-  "last_run": "2026-11-01 16:32:06",
-  "total_published": 105
+  "last_run": "2026-11-02 19:52:35",
+  "total_published": 106
 }
