@@ -2419,8 +2419,30 @@
           "ig_media_id": "18133465480871945"
         }
       }
+    },
+    {
+      "id": 115,
+      "timestamp": "2026-11-10 17:21:33",
+      "asset_filename": "Tablet_showing_restaurant_menu_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "speed_and_sales",
+      "pillar_title": "سرعة خدمة الزبائن وإنهاء الفاتورة في ثانيتين بدون طوابير",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122127646683455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 118
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "17873671281646079"
+        }
+      }
     }
   ],
-  "last_run": "2026-11-09 20:14:59",
-  "total_published": 114
+  "last_run": "2026-11-10 17:21:33",
+  "total_published": 115
 }
