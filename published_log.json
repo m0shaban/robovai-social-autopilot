@@ -2441,8 +2441,30 @@
           "ig_media_id": "17873671281646079"
         }
       }
+    },
+    {
+      "id": 116,
+      "timestamp": "2026-11-11 17:31:47",
+      "asset_filename": "RoboVAI_POS_terminal_at_checkout_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "speed_and_sales",
+      "pillar_title": "سرعة خدمة الزبائن وإنهاء الفاتورة في ثانيتين بدون طوابير",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122128122783455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 119
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18104530502560419"
+        }
+      }
     }
   ],
-  "last_run": "2026-11-10 17:21:33",
-  "total_published": 115
+  "last_run": "2026-11-11 17:31:47",
+  "total_published": 116
 }
