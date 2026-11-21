@@ -2652,8 +2652,30 @@
         },
         "instagram": null
       }
+    },
+    {
+      "id": 126,
+      "timestamp": "2026-11-21 17:00:26",
+      "asset_filename": "Hand_scanning_snack_package_barcode_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "smart_inventory",
+      "pillar_title": "جرد المخازن الذكي وتطبيق الموبايل WMS بدون أجهزة غالية",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122131479681455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 129
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18093806960296764"
+        }
+      }
     }
   ],
-  "last_run": "2026-11-20 18:04:48",
-  "total_published": 125
+  "last_run": "2026-11-21 17:00:26",
+  "total_published": 126
 }
