@@ -2737,8 +2737,30 @@
         },
         "instagram": null
       }
+    },
+    {
+      "id": 130,
+      "timestamp": "2026-11-25 19:39:19",
+      "asset_filename": "11-expenses.png_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "smart_investment",
+      "pillar_title": "التمليك الدائم والاستثمار الذكي مقابل جشع الاشتراكات الشهرية",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122132297235455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 133
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "17916237210476110"
+        }
+      }
     }
   ],
-  "last_run": "2026-11-24 20:25:09",
-  "total_published": 129
+  "last_run": "2026-11-25 19:39:19",
+  "total_published": 130
 }
