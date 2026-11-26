@@ -2759,8 +2759,30 @@
           "ig_media_id": "17916237210476110"
         }
       }
+    },
+    {
+      "id": 131,
+      "timestamp": "2026-11-26 19:20:13",
+      "asset_filename": "Cashier_processing_return_in_shop_202609040232.jpeg",
+      "asset_type": "image",
+      "pillar_id": "pain_killer",
+      "pillar_title": "حماية الخزينة ومكافحة سرقة الكاشير وعجز الدرج",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "122132509821455993"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 134
+        },
+        "instagram": {
+          "success": true,
+          "ig_media_id": "18117252779166991"
+        }
+      }
     }
   ],
-  "last_run": "2026-11-25 19:39:19",
-  "total_published": 130
+  "last_run": "2026-11-26 19:20:13",
+  "total_published": 131
 }
