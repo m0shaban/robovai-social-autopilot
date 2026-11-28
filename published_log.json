@@ -2803,8 +2803,27 @@
           "ig_media_id": "18137269685506238"
         }
       }
+    },
+    {
+      "id": 133,
+      "timestamp": "2026-11-28 17:51:22",
+      "asset_filename": "Telegram_notification_on_smartph…_202609040232.mp4",
+      "asset_type": "video",
+      "pillar_id": "business_control",
+      "pillar_title": "التحكم الكامل وتنبيهات تليجرام وأنت خارج المحل",
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "1624381602237501"
+        },
+        "telegram": {
+          "success": true,
+          "message_id": 136
+        },
+        "instagram": null
+      }
     }
   ],
-  "last_run": "2026-11-27 19:14:08",
-  "total_published": 132
+  "last_run": "2026-11-28 17:51:22",
+  "total_published": 133
 }
